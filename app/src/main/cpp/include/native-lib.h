@@ -12,8 +12,7 @@ extern "C" {
  * Method:    hello
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_forfun_tastendk_Foo_hello
-  (JNIEnv *, jobject);
+JNIEXPORT jstring JNICALL Java_forfun_tastendk_Foo_hello(JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }
